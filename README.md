@@ -23,6 +23,11 @@ Run:
 uvicorn tiny_url.main:local_app --port {PORT}
 ```
 
+To check routes documentation:
+```
+http://127.0.0.1:{PORT}/docs
+```
+
 ## Todo next
 - Unit test:
   - Test both routes, succes and failures
