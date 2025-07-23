@@ -1,0 +1,4 @@
+[flake8]
+ignore = F811,E266,W503
+max-line-length = 200
+exclude = ./.venv/*
